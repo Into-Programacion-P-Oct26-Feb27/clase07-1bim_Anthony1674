@@ -21,7 +21,7 @@ public class Ejemplo021 {
         int limite;
         int contador = 1;
         int suma = 0;
-        int multiplicacion = 0;
+        
         
         System.out.println("Ingrese el Límite"); 
         limite = entrada.nextInt(); // 6
@@ -29,7 +29,6 @@ public class Ejemplo021 {
             
             if (contador%2!=0) {
                 suma = suma +contador;
-                multiplicacion = multiplicacion;
             }else{
             //par
             }

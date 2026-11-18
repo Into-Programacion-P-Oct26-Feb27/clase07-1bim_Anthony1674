@@ -21,19 +21,22 @@ public class Ejemplo022 {
         int limite;
         int contador = 1;
         int suma = 0;
+        int multiplicar = 1;
         
         System.out.println("Ingrese el Límite"); 
         limite = entrada.nextInt(); // 6
         while (contador <= limite){
             
             if (contador%2!=0) {
-                suma = suma +contador;
+                multiplicar = multiplicar + 1 ;
+            }else{
+            //par
+            suma = suma + contador;
             }
-            
             contador = contador + 1;
         }
-         System.out.printf("la suma de impares es %d\n", suma ); 
-        
+         System.out.printf("la suma de pares es %d\n", suma); 
+        System.out.printf("la multiplicaion de impares es %d\n", multiplicar); 
     }
 }
 /*
